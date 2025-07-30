@@ -48,7 +48,7 @@ export default function HeroSection() {
               className="text-xl text-muted-foreground mb-6"
               variants={childVariants}
             >
-              Software Engineer 👨‍💻
+              IT Engineer 👨‍💻
             </motion.p>
 
             <motion.div
@@ -122,15 +122,8 @@ export default function HeroSection() {
           <div className="bg-gradient-to-r from-purple-500/10 to-pink-500/10 backdrop-blur-sm backdrop-filter p-4 rounded-lg border border-purple-500/20 dark:border-purple-500/10 shadow-sm">
             <p className="text-muted-foreground pl-4 py-2 mb-4 relative">
               <span className="absolute left-0 top-0 h-full w-1 bg-gradient-to-b from-purple-500 to-pink-500 rounded-full"></span>
-              🚀 Passionate software engineer with a versatile skill set
-              spanning multiple domains. I thrive on solving complex challenges
-              across different platforms and environments, adapting quickly to
-              new technologies and methodologies. My holistic approach combines
-              technical expertise with creative problem-solving, allowing me to
-              develop solutions that are both innovative and practical. I'm
-              driven by continuous learning and a commitment to excellence,
-              whether working independently or collaborating with diverse teams
-              to create impactful, scalable solutions.
+              🚀 Hi! I’m an IT professional with over 16 years of experience in tech services, solution architecture, and project coordination. Throughout my career, I’ve worked as an IT Service Coordinator, Solution Architect, and Systems Engineer, handling a variety of projects and challenges.
+              I have hands-on experience with cloud environments, especially AWS, and a solid understanding of cloud architecture and data analytics services. Right now, I’m working on improving my English (currently at B1 level) and I’m always eager to keep learning and developing my technical and leadership skills to better support global teams and projects.
             </p>
           </div>
         </MotionWrapper>
