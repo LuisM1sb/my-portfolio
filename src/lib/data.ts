@@ -100,7 +100,7 @@ export const workExperience = [
     company: "Akzio",
     location: "Santiago, Chile",
     position: "Project Manager",
-    period: "Aug 2015 - Apr 2016",
+    period: "Aug 2011 - Apr 2016",
     achievements: [
       "Project Manager at Akzio Consultores, managing projects for Entel S.A. in the mobile provisioning area.",
       "Led and resolved incidents in the operational continuity area, ensuring high system availability and performance.",
