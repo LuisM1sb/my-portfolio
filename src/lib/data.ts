@@ -178,6 +178,7 @@ export const projects = [
   {
     title: "Air Conditioning project",
     github: "https://github.com/LuisM1sb/aire",
+    thumbnail: "/thumbnails/air-conditioning.PNG",
     description: [
       "Landing page for an air conditioning company.",
     ],
@@ -185,6 +186,7 @@ export const projects = [
   {
     title: "Pest Control",
     github: "https://github.com/LuisM1sb/Ratatuin",
+    thumbnail: "/thumbnails/pest-control.PNG" ,
     description: [
       "Pest control website for a company in the city of Puerto Montt.",
     ],

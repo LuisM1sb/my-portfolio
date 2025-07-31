@@ -26,6 +26,19 @@ export default function ProjectsSection() {
           {projects.map((project, index) => (
             <MotionWrapper key={project.title} delay={index * 0.2}>
               <GlassCard className="group overflow-hidden dark:border-purple-500/10 h-full flex flex-col">
+                {project.thumbnail && (
+                  <div className="relative overflow-hidden">
+                    <img
+                      src={project.thumbnail}
+                      alt={`${project.title} thumbnail`}
+                      className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+                      onError={(e) => {
+                        e.currentTarget.style.display = 'none';
+                      }}
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                  </div>
+                )}
                 <CardHeader className="bg-gradient-to-r from-purple-500/5 to-pink-500/5">
                   <CardTitle className="text-center md:text-left group-hover:text-purple-500 transition-colors duration-300">
                     {project.title}
