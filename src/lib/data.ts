@@ -1,7 +1,7 @@
 export const personalInfo = {
   name: "Luis Méndez",
   location: "Santiago, Chile",
-  email: "@gmail.com",
+  email: "luismendezmor@proton.me",
   github: "https://github.com/LuisM1sb",
   linkedin: "https://www.linkedin.com/in/luismendezmor/",
 };
